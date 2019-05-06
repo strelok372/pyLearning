@@ -22,7 +22,7 @@ def search(w, *ww):
 q = []
 z = None
 
-while (z == None):
+while z == None:
     q.clear()
     for p in range(1000):
         q.append(random.randint(0, 10000))
